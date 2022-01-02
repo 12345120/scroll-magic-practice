@@ -12,7 +12,7 @@ const main = (cb) => {
       presets: ["@babel/preset-env"],
     })
     .bundle()
-    .pipe("./sm_bundle.js");
+    .pipe("./");
 };
 exports.main = main;
 
