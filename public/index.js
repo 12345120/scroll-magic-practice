@@ -1,4 +1,5 @@
-const scrollmagic = require("scrollmagic");
+// const scrollmagic = require("scrollmagic");
+import scrollmagic from "scrollmagic";
 
 const controller = new scrollmagic.Controller();
 
