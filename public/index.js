@@ -1,8 +1,6 @@
-// const scrollmagic = require("scrollmagic");
+const controller = new ScrollMagic.Controller();
 
-const controller = new sm.Controller();
-
-const scene = new sm.Scene({
+const scene = new ScrollMagic.Scene({
   triggerElement: ".card",
   duration: 100,
   triggerHook: 0,
