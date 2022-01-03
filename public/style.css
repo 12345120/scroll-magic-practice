@@ -96,8 +96,11 @@
   color: black;
   border-radius: 100%;
   opacity: 0;
+  transition: opacity 300ms ease-in, transform 300ms ease-in;
+  transform: translateY(100px);
 }
 
 .show {
   opacity: 1;
+  transform: translateY(0);
 }
